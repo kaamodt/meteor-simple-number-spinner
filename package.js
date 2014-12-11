@@ -11,9 +11,3 @@ Package.onUse(function(api) {
   api.addFiles(['lib/client/simple-number-spinner.html', 'lib/client/simple-number-spinner.js', 'lib/client/simple-number-spinner.css' ], 'client');
 
 });
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('kaamodt:simple-number-spinner');
-  api.addFiles('kaamodt:simple-number-spinner-tests.js');
-});
