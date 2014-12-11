@@ -1,3 +1,7 @@
-<template name="NumberSpinner">
-  <input type="number" min="{{min}}" max="{{max}}" value="{{value}}"
+<template name="numberSpinner">
+  <span class="spinner">
+    <span class="sub">-</span>
+    <input type="number" min="{{min}}" max="{{max}}" value="{{value}}" id="{{id}}">
+    <span class="add">+</span>
+  </span>
 </template>
