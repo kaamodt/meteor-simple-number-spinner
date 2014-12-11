@@ -1,7 +1,7 @@
 Package.describe({
   name: 'kaamodt:simple-number-spinner',
   summary: 'Simple meteor number spinner',
-  version: '0.0.6',
+  version: '0.0.7',
   git: 'https://github.com/kaamodt/meteor-simple-number-spinner.git'
 });
 
