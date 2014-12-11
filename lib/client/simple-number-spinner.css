@@ -16,6 +16,7 @@ input[type=number] {
 span.spinner {
   position: absolute;
   height: 40px;
+  font-size:20px;
   user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
