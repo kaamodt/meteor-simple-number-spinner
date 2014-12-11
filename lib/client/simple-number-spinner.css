@@ -7,7 +7,7 @@ input[type=number] {
   text-transform: uppercase;
   text-align: center;
   color: #93504C;
-  border: 2px #93504C solid;
+  border: 2px #CCCCCC solid;
   background: none;
   outline: none;
   pointer-events: none;
@@ -35,7 +35,7 @@ span.spinner > .add {
   font-size: 1.2em;
   line-height: 33px;
   color: #93504C;
-  border: 2px #93504C solid;
+  border: 2px #CCCCCC solid;
   border-right: 0;
   border-radius: 2px 0 0 2px;
   cursor: pointer;
@@ -48,7 +48,7 @@ span.spinner > .add {
 
 span.spinner > .add {
   top: 0;
-  border: 2px #93504C solid;
+  border: 2px #CCCCCC solid;
   border-left: 0;
   border-radius: 0 2px 2px 0;
 }
