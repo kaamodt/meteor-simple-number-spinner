@@ -1,13 +1,15 @@
 Package.describe({
   name: 'kaamodt:simple-number-spinner',
-  summary: ' /* Fill me in! */ ',
-  version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  summary: 'Simple meteor number spinner',
+  version: '0.0.1',
+  git: 'https://github.com/kaamodt/meteor-simple-number-spinner.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.addFiles('kaamodt:simple-number-spinner.js');
+  api.use(['templating'], 'client');
+  api.addFiles(['lib/client/simple-number-spinner.html', 'lib/client/simple-number-spinner.js', 'lib/client/simple-number-spinner.css' ], 'client');
+
 });
 
 Package.onTest(function(api) {
